@@ -17,9 +17,8 @@ public class Main {
             array[i] = value;
         }
 
-        System.out.print ("Вывод элементов:");
-        for (int i = 0; i < size; i++) {
-            System.out.print (" " + array[i]);
+        System.out.print (Arrays.toString(array));
+            System.out.print ("Сумма" + array[i]);
         }
     }
 }
